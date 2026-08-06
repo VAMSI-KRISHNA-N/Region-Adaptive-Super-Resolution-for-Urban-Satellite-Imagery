@@ -1,0 +1,29 @@
+# Python / Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+
+# Model Checkpoints & Large Data Archives
+*.pth
+*.pt
+*.zip
+*.tar.gz
+*.onnx
+all_checkpoints/
+checkpoints/
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# System / IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
