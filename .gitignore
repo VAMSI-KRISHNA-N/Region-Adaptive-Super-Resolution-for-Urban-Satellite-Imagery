@@ -1,29 +1,10 @@
-# Python / Bytecode
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
+# Ignore all files in the root folder
+/*
 
-# Virtual Environments
-.venv/
-venv/
-env/
-ENV/
+# Do not ignore gitignore & README
+!.gitignore
+!README.md
 
-# Model Checkpoints & Large Data Archives
-*.pth
-*.pt
-*.zip
-*.tar.gz
-*.onnx
-all_checkpoints/
-checkpoints/
-
-# Jupyter Notebook Checkpoints
-.ipynb_checkpoints/
-
-# System / IDE files
-.DS_Store
-Thumbs.db
-.vscode/
-.idea/
+# Do not ignore notebooks folder
+!notebooks/
+!notebooks/**
